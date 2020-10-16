@@ -32,8 +32,25 @@ header{
     flex-direction: column;
     align-items: center;
     position: relative;
+    
+    margin-left: auto;
+    margin-right: auto;
 }
-.left-arrow, .right-arrow{
+
+
+
+.carousel-window__items{
+    width: 800px;
+    overflow: hidden;
+    
+}
+
+.item{
+    width: 800px;
+}
+
+
+.prev-arrow, .next-arrow{
   border: 10px solid#A50015;
   height: 79px;
   width: 79px;
@@ -48,13 +65,13 @@ header{
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 70px;
+    font-size: 50px;
     line-height: 70px;
     color: #FFFFFF;
     position: absolute;
     top: 300px;
 }
-.right-arrow{
+.next-arrow{
     transform: rotate(135deg);
 }
 .button{

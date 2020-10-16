@@ -4,5 +4,9 @@ hamburger.addEventListener('click' , ()=>{
     hamburger.classList.toggle('is-active')
 })
 $(function(){
-    $('.right-arrow').slick({});
+    $('.carousel-window__items').slick({
+        infinity: true,
+        centerMode: true,
+        variableWidth: true
+    });
 });
